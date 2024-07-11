@@ -1,0 +1,45 @@
+/ {
+    behaviors {
+        tap_dance_0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap Dance 0";
+            bindings = <&kp ESC>, <&kp CAPS>;
+            #binding-cells = <2>;
+        };
+
+        tap_dance_1: tap_dance_1 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap Dance 1";
+            bindings = <&kp RALT>, <&kp RCTRL>;
+            #binding-cells = <2>;
+        };
+
+        tap_dance_2: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap Dance 2";
+            bindings = <&kp DLR>, <&kp LSFT>;
+            #binding-cells = <2>;
+        };
+
+        tap_dance_3: tap_dance_3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap Dance 3";
+            bindings = <&kp RABK>, <&kp LALT>;
+            #binding-cells = <2>;
+        };
+
+        tap_dance_4: tap_dance_4 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap Dance 4";
+            bindings = <&kp EXLM>, <&kp LSFT>;
+            #binding-cells = <2>;
+        };
+
+        tap_dance_5: tap_dance_5 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Tap Dance 5";
+            bindings = <&kp AMPR>, <&kp LALT>;
+            #binding-cells = <2>;
+        };
+    };
+};
